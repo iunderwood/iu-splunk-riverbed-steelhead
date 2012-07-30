@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<dashboard>
+  <label>Riverbed Steelhead Dashboard</label>
+  <row>
+	<chart>
+		<title>Top Optimizations (4H)</title>
+		<earliestTime>-4h</earliestTime>
+		<searchName>Riverbed Steelhead - Optimized Apps</searchName>
+		<option name="charting.chart">pie</option>
+	</chart>
+	<chart>
+		<title>Top Components (4H)</title>
+		<earliestTime>-4H</earliestTime>
+		<searchName>Riverbed Steelhead - Top Components</searchName>
+		<option name="charting.chart">pie</option>
+	</chart>
+  </row>
+</dashboard>
