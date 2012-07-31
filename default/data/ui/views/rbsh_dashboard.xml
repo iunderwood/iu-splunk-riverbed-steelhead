@@ -1,18 +1,51 @@
 <?xml version='1.0' encoding='utf-8'?>
 <dashboard>
   <label>Riverbed Steelhead Dashboard</label>
+
   <row>
-	<chart>
-		<title>Top Optimizations (4H)</title>
-		<earliestTime>-4h</earliestTime>
-		<searchName>Riverbed Steelhead - Optimized Apps</searchName>
-		<option name="charting.chart">pie</option>
-	</chart>
-	<chart>
-		<title>Top Components (4H)</title>
-		<earliestTime>-4H</earliestTime>
-		<searchName>Riverbed Steelhead - Top Components</searchName>
-		<option name="charting.chart">pie</option>
-	</chart>
+  	<chart>
+  		<title>Severity Summary</title>
+  		<earliestTime>-1d</earliestTime>
+  		<searchName>RBSH - Severity Summary</searchName>
+      <option name="charting.axisTitleX.text">Severity</option>
+      <option name="charting.axisTitleY.text">Events</option>
+      <option name="charting.axisY.scale">log</option>
+      <option name="charting.chart">bar</option>
+      <option name="charting.chart.axisX">Severity</option>
+      <option name="charting.chart.axisY">Events</option>
+      <option name="charting.primaryAxisTitle.text"/>
+      <option name="charting.secondaryAxis.scale">log</option>
+      <option name="charting.secondaryAxisTitle.text"></option>
+  	</chart>
+  	<chart>
+  		<title>Components Reporting</title>
+  		<earliestTime>-1d</earliestTime>
+  		<searchName>RBSH - Components</searchName>
+      <option name="charting.axisTitleX.text">Component</option>
+      <option name="charting.axisTitleY.text">Events</option>
+      <option name="charting.axisY.scale">log</option>
+      <option name="charting.chart">bar</option>
+      <option name="charting.chart.axisX">Component</option>
+      <option name="charting.chart.axisY">Events</option>
+      <option name="charting.primaryAxisTitle.text"/>
+      <option name="charting.secondaryAxis.scale">log</option>
+      <option name="charting.secondaryAxisTitle.text"></option>
+    </chart>
   </row>
+  <row>
+    <chart>
+      <searchName>RBSH - Error Reasons</searchName>
+      <title>Error Reasons Over Time</title>
+      <earliestTime>-1d</earliestTime>
+      <option name="charting.axisTitleX.text">Time</option>
+      <option name="charting.axisTitleY.text">Errors</option>
+      <option name="charting.axisY.scale">linear</option>
+      <option name="charting.chart">column</option>
+      <option name="charting.chart.stackMode">stacked</option>
+      <option name="charting.primaryAxisTitle.text"/>
+      <option name="charting.secondaryAxis.scale">linear</option>
+      <option name="charting.secondaryAxisTitle.text"/>
+    </chart>
+  </row>
+
 </dashboard>

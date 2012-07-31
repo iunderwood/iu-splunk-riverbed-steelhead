@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<dashboard>
+	<label>Informational Events</label>
+  <row>
+		<chart>
+			<title>Top Optimizations (1H)</title>
+			<earliestTime>-1h</earliestTime>
+			<searchName>RBSH - Optimized Apps</searchName>
+			<option name="charting.chart">pie</option>
+		</chart>
+		<chart>
+			<title>Top Components (1H)</title>
+			<earliestTime>-1H</earliestTime>
+			<searchName>RBSH - Info Components</searchName>
+			<option name="charting.chart">pie</option>
+		</chart>
+	</row>
+</dashboard>
