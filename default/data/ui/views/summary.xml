@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <dashboard>
-  <label>Riverbed Steelhead Dashboard</label>
+  <label>Riverbed 24 Hour Summary</label>
 
   <row>
   	<chart>
   		<title>Severity Summary</title>
   		<earliestTime>-1d</earliestTime>
-  		<searchName>RBSH - Severity Summary</searchName>
+  		<searchName>RBSH - Summary Severity</searchName>
       <option name="charting.axisTitleX.text">Severity</option>
       <option name="charting.axisTitleY.text">Events</option>
       <option name="charting.axisY.scale">log</option>
@@ -20,7 +20,7 @@
   	<chart>
   		<title>Components Reporting</title>
   		<earliestTime>-1d</earliestTime>
-  		<searchName>RBSH - Components</searchName>
+  		<searchName>RBSH - Summary Components</searchName>
       <option name="charting.axisTitleX.text">Component</option>
       <option name="charting.axisTitleY.text">Events</option>
       <option name="charting.axisY.scale">log</option>
@@ -34,7 +34,7 @@
   </row>
   <row>
     <chart>
-      <searchName>RBSH - Error Reasons</searchName>
+      <searchName>RBSH - Error Timechart</searchName>
       <title>Error Reasons Over Time</title>
       <earliestTime>-1d</earliestTime>
       <option name="charting.axisTitleX.text">Time</option>

@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <dashboard>
-	<label>Informational Events</label>
+	<label>RBDB - Informational Events</label>
+
   <row>
 		<chart>
 			<title>Top Optimizations (1H)</title>
@@ -15,4 +16,5 @@
 			<option name="charting.chart">pie</option>
 		</chart>
 	</row>
+
 </dashboard>

@@ -1,13 +1,12 @@
 <nav>
-	<view name="rbsh_dashboard" default='true' />
+	<view name="summary" default='true' />
 
 	<collection label="Dashboards">
-    <view source="unclassified" match="dashboard"/>
-    <divider />
+    <view source="unclassified" match="dash"/>
   </collection>
 
   <collection label="Views">
-    <view source="unclassified" />
+    <view source="unclassified" match="view"/>
     <divider />
   </collection>
 

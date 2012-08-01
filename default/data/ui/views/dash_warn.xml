@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<dashboard>
+	<label>RBDB - Warning Summary</label>
+
+	<row>
+		<chart>
+			<searchName>RBSH - Warning Timechart</searchName>
+			<title>Warning Components</title>
+			<earliestTime>-1d</earliestTime>
+	    <option name="charting.axisTitleX.text">Time</option>
+      <option name="charting.axisTitleY.text">Events</option>
+      <option name="charting.axisY.scale">log</option>
+      <option name="charting.chart">column</option>
+      <option name="charting.chart.stackMode">stacked</option>
+      <option name="charting.primaryAxisTitle.text"/>
+      <option name="charting.secondaryAxis.scale">log</option>
+      <option name="charting.secondaryAxisTitle.text"/>
+    </chart>
+	</row>
+	<row>
+		<table>
+			<searchName>RBSH - Alert Timechart</searchName>
+			<title>Latest Alerts</title>
+		</table>
+	</row>
+
+</dashboard>
