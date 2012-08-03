@@ -18,19 +18,11 @@
       <option name="charting.secondaryAxisTitle.text"></option>
   	</chart>
   	<chart>
-  		<title>Components Reporting</title>
+  		<title>Steelhead Hosts</title>
   		<earliestTime>-1d</earliestTime>
-  		<searchName>RBSH - Summary Components</searchName>
-      <option name="charting.axisTitleX.text">Component</option>
-      <option name="charting.axisTitleY.text">Events</option>
-      <option name="charting.axisY.scale">log</option>
-      <option name="charting.chart">bar</option>
-      <option name="charting.chart.axisX">Component</option>
-      <option name="charting.chart.axisY">Events</option>
-      <option name="charting.primaryAxisTitle.text"/>
-      <option name="charting.secondaryAxis.scale">log</option>
-      <option name="charting.secondaryAxisTitle.text"></option>
-    </chart>
+  		<searchName>RBSH - Summary Hosts</searchName>
+			<option name="charting.chart">pie</option>
+  	</chart>
   </row>
   <row>
     <chart>

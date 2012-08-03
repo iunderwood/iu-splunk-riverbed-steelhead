@@ -5,15 +5,7 @@
     <view source="unclassified" match="dash"/>
   </collection>
 
-  <collection label="Views">
-    <view source="unclassified" match="view"/>
-  </collection>
-
-  <collection label="Searches &amp; Reports">
-    <collection label="Reports">
-      <saved source="unclassified" match="report" />
-    </collection>
-    <divider />
+  <collection label="Searches">
     <saved source="unclassified" />
   </collection>
 
