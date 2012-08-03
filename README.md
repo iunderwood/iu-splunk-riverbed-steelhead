@@ -32,6 +32,4 @@ $SPLUNK_HOME\etc\deployment_apps
 
 --[ Acknowledgements ]--
 
-This application was created with the generous support of American Tower Corporation.
-
 Application icon by flakshak - http://flakshack.deviantart.com
