@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <dashboard>
-	<label>Summary: Warnings</label>
+	<label>Summary: Info</label>
 
 	<row>
 		<chart>
-			<title>Warning Components</title>
-			<searchName>RBSH - Warning Components</searchName>
+			<title>Info Components</title>
+			<searchName>RBSH - Info Components</searchName>
 			<option name="charting.axisTitleX.text">Component</option>
       <option name="charting.axisTitleY.text">Events</option>
       <option name="charting.axisY.scale">log</option>
@@ -17,15 +17,15 @@
       <option name="charting.secondaryAxisTitle.text"></option>
 		</chart>
 		<chart>
-			<title>Warning Hosts</title>
-			<searchName>RBSH - Warning Hosts</searchName>
+			<title>Info Hosts</title>
+			<searchName>RBSH - Info Hosts</searchName>
 			<option name="charting.chart">pie</option>
 		</chart>
 	</row>
 	<row>
 		<chart>
-			<searchName>RBSH - Warning Timechart</searchName>
-			<title>Warnings Over Time</title>
+			<searchName>RBSH - Info Timechart</searchName>
+			<title>Info Over Time</title>
 			<earliestTime>-1d</earliestTime>
 	    <option name="charting.axisTitleX.text">Time</option>
       <option name="charting.axisTitleY.text">Events</option>
@@ -36,6 +36,21 @@
       <option name="charting.secondaryAxis.scale">log</option>
       <option name="charting.secondaryAxisTitle.text"/>
     </chart>
+	</row>
+
+  <row>
+		<chart>
+			<title>Top Optimizations</title>
+			<earliestTime>-4h</earliestTime>
+			<searchName>RBSH - Info Apps</searchName>
+			<option name="charting.chart">pie</option>
+		</chart>
+		<chart>
+			<title>Top Components</title>
+			<earliestTime>-4H</earliestTime>
+			<searchName>RBSH - Info Components</searchName>
+			<option name="charting.chart">pie</option>
+		</chart>
 	</row>
 
 </dashboard>

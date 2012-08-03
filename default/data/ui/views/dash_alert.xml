@@ -1,11 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <dashboard>
-	<label>Summary: Warnings</label>
-
+	<label>Summary: Alerts</label>
 	<row>
-		<chart>
-			<title>Warning Components</title>
-			<searchName>RBSH - Warning Components</searchName>
+	  <chart>
+			<title>Alerting Components</title>
+			<searchName>RBSH - Alerting Components</searchName>
 			<option name="charting.axisTitleX.text">Component</option>
       <option name="charting.axisTitleY.text">Events</option>
       <option name="charting.axisY.scale">log</option>
@@ -15,17 +14,17 @@
       <option name="charting.primaryAxisTitle.text"/>
       <option name="charting.secondaryAxis.scale">log</option>
       <option name="charting.secondaryAxisTitle.text"></option>
-		</chart>
-		<chart>
-			<title>Warning Hosts</title>
-			<searchName>RBSH - Warning Hosts</searchName>
+    </chart>
+    <chart>
+			<title>Alerting Hosts</title>
+			<searchName>RBSH - Alerting Hosts</searchName>
 			<option name="charting.chart">pie</option>
 		</chart>
 	</row>
 	<row>
 		<chart>
-			<searchName>RBSH - Warning Timechart</searchName>
-			<title>Warnings Over Time</title>
+			<searchName>RBSH - Alerting Timechart</searchName>
+			<title>Alerts Over Time</title>
 			<earliestTime>-1d</earliestTime>
 	    <option name="charting.axisTitleX.text">Time</option>
       <option name="charting.axisTitleY.text">Events</option>
@@ -37,5 +36,10 @@
       <option name="charting.secondaryAxisTitle.text"/>
     </chart>
 	</row>
-
+	<row>
+		<table>
+			<searchName>RBSH - Alarm Table</searchName>
+			<earliestTime>-1d</earliestTime>
+		</table>
+	</row>
 </dashboard>
