@@ -7,7 +7,6 @@
 
   <collection label="Views">
     <view source="unclassified" match="view"/>
-    <divider />
   </collection>
 
   <collection label="Searches &amp; Reports">
