@@ -21,6 +21,12 @@
 			<searchName>RBSH - Info Hosts</searchName>
 			<option name="charting.chart">pie</option>
 		</chart>
+		<chart>
+			<title>Top Optimizations</title>
+			<earliestTime>-4h</earliestTime>
+			<searchName>RBSH - Info Apps</searchName>
+			<option name="charting.chart">pie</option>
+		</chart>
 	</row>
 	<row>
 		<chart>
@@ -33,24 +39,9 @@
       <option name="charting.chart">column</option>
       <option name="charting.chart.stackMode">stacked</option>
       <option name="charting.primaryAxisTitle.text"/>
-      <option name="charting.secondaryAxis.scale">log</option>
+      <option name="charting.secondaryAxis.scale">linear</option>
       <option name="charting.secondaryAxisTitle.text"/>
     </chart>
-	</row>
-
-  <row>
-		<chart>
-			<title>Top Optimizations</title>
-			<earliestTime>-4h</earliestTime>
-			<searchName>RBSH - Info Apps</searchName>
-			<option name="charting.chart">pie</option>
-		</chart>
-		<chart>
-			<title>Top Components</title>
-			<earliestTime>-4H</earliestTime>
-			<searchName>RBSH - Info Components</searchName>
-			<option name="charting.chart">pie</option>
-		</chart>
 	</row>
 
 </dashboard>
