@@ -14,12 +14,12 @@ This application also supports the "riverbed_info" index, if that was enabled th
 
 NOTE: rb_steelhead_fwd is required!
 
-In order for this app to function, the rb_steelhead_fwd app must be installed on all forwarders taking input from the Riverbed devices.
+In order for this app to function, the rb_steelhead_fwd app must be installed on all Splunk instances taking input from the Riverbed devices.  (Forwarders, etc.)
 
 
 --[ Installation ]--
 
-This application needs to be installed on any search heads and indexers that will be searching for an using the Riverbed data.
+This application needs to be installed on any search heads that will be searching for an using the Riverbed data.
 
 Install the rb_steelhead directory on your search and index instances:
 
